@@ -127,8 +127,6 @@ export default function Home() {
             {error && <p className="ai-error">Error: {error}</p>}
           </form>
 
-          <h1 className="text-2xl font-bold text-blue-600">Halo dari Tailwind</h1>
-
           {summary && (
             <div className="ai-summary">
               <div className="ai-summary-header">
